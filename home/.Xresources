@@ -1,0 +1,54 @@
+URxvt.perl-ext-common: vtwheel,tabbed,font-size
+URxvt*iconFile: /usr/share/icons/Faenza/apps/48/Terminal.png
+URxvt*depth: 32
+
+! special
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c87a7c
+
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #a54242
+*.color9:       #cc6666
+
+! green
+*.color2:       #8c9440
+*.color10:      #2f9b85
+
+! yellow
+*.color3:       #de935f
+*.color11:      #f0c674
+
+! blue
+*.color4:       #5f819d
+*.color12:      #81a2be
+
+! magenta (orange)
+*.color5:       #a35c2c
+*.color13:      #f08741
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #707880
+*.color15:      #c5c8c6
+
+! Tabs
+URxvt.tabbed.tabbar-fg: 10
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 0
+URxvt.tabbed.tab-bg: 10
+
+
+rofi.color-normal: #303b3e,#f0f0f0,#303b3e,#2f9b85,#f0f0f0
+rofi.color-window: #303b3e,#7f787f
+rofi.bw: 0
+rofi.separator-style: solid
+rofi.scrollbar-width: 8
